@@ -14,6 +14,8 @@
 		04C84F3E24691A6600B3A336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C84F3D24691A6600B3A336 /* Assets.xcassets */; };
 		04C84F4124691A6600B3A336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C84F3F24691A6600B3A336 /* LaunchScreen.storyboard */; };
 		04C84F4C24691A6600B3A336 /* SpeechRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C84F4B24691A6600B3A336 /* SpeechRecognizerTests.swift */; };
+		2F1F39EA11609D7DB223D348 /* Pods_SpeechRecognizerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3505F040D13C40A99044966F /* Pods_SpeechRecognizerTests.framework */; };
+		AC45AA6EC2C422C3CFE1D679 /* Pods_SpeechRecognizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0F0C03D1CF483DCF66BC08 /* Pods_SpeechRecognizer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,12 @@
 		04C84F4724691A6600B3A336 /* SpeechRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C84F4B24691A6600B3A336 /* SpeechRecognizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizerTests.swift; sourceTree = "<group>"; };
 		04C84F4D24691A6600B3A336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3505F040D13C40A99044966F /* Pods_SpeechRecognizerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeechRecognizerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0F0C03D1CF483DCF66BC08 /* Pods_SpeechRecognizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeechRecognizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		941FA7F547C503CC4260F13B /* Pods-SpeechRecognizerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechRecognizerTests.debug.xcconfig"; path = "Target Support Files/Pods-SpeechRecognizerTests/Pods-SpeechRecognizerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AEDE99698FFAE34A1453CB57 /* Pods-SpeechRecognizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechRecognizer.debug.xcconfig"; path = "Target Support Files/Pods-SpeechRecognizer/Pods-SpeechRecognizer.debug.xcconfig"; sourceTree = "<group>"; };
+		C9EEF5B990F79D4CEA0F1AD0 /* Pods-SpeechRecognizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechRecognizer.release.xcconfig"; path = "Target Support Files/Pods-SpeechRecognizer/Pods-SpeechRecognizer.release.xcconfig"; sourceTree = "<group>"; };
+		E71E7DD1B394819876FF5BE3 /* Pods-SpeechRecognizerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechRecognizerTests.release.xcconfig"; path = "Target Support Files/Pods-SpeechRecognizerTests/Pods-SpeechRecognizerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC45AA6EC2C422C3CFE1D679 /* Pods_SpeechRecognizer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F1F39EA11609D7DB223D348 /* Pods_SpeechRecognizerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +74,8 @@
 				04C84F3324691A6300B3A336 /* SpeechRecognizer */,
 				04C84F4A24691A6600B3A336 /* SpeechRecognizerTests */,
 				04C84F3224691A6300B3A336 /* Products */,
+				D8466ECD5AA7F7D13681F209 /* Pods */,
+				32B9E3921F687D10ECC83227 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +111,27 @@
 			path = SpeechRecognizerTests;
 			sourceTree = "<group>";
 		};
+		32B9E3921F687D10ECC83227 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D0F0C03D1CF483DCF66BC08 /* Pods_SpeechRecognizer.framework */,
+				3505F040D13C40A99044966F /* Pods_SpeechRecognizerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8466ECD5AA7F7D13681F209 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEDE99698FFAE34A1453CB57 /* Pods-SpeechRecognizer.debug.xcconfig */,
+				C9EEF5B990F79D4CEA0F1AD0 /* Pods-SpeechRecognizer.release.xcconfig */,
+				941FA7F547C503CC4260F13B /* Pods-SpeechRecognizerTests.debug.xcconfig */,
+				E71E7DD1B394819876FF5BE3 /* Pods-SpeechRecognizerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04C84F5024691A6600B3A336 /* Build configuration list for PBXNativeTarget "SpeechRecognizer" */;
 			buildPhases = (
+				10C6D70752E906CCE1792666 /* [CP] Check Pods Manifest.lock */,
 				04C84F2D24691A6300B3A336 /* Sources */,
 				04C84F2E24691A6300B3A336 /* Frameworks */,
 				04C84F2F24691A6300B3A336 /* Resources */,
+				EA05F6A39190660D1DE03018 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04C84F5324691A6600B3A336 /* Build configuration list for PBXNativeTarget "SpeechRecognizerTests" */;
 			buildPhases = (
+				0338375A9A399A16DB19968C /* [CP] Check Pods Manifest.lock */,
 				04C84F4324691A6600B3A336 /* Sources */,
 				04C84F4424691A6600B3A336 /* Frameworks */,
 				04C84F4524691A6600B3A336 /* Resources */,
@@ -194,6 +230,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0338375A9A399A16DB19968C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeechRecognizerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10C6D70752E906CCE1792666 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeechRecognizer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA05F6A39190660D1DE03018 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeechRecognizer/Pods-SpeechRecognizer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeechRecognizer/Pods-SpeechRecognizer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpeechRecognizer/Pods-SpeechRecognizer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04C84F2D24691A6300B3A336 /* Sources */ = {
@@ -360,6 +460,7 @@
 		};
 		04C84F5124691A6600B3A336 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEDE99698FFAE34A1453CB57 /* Pods-SpeechRecognizer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -377,6 +478,7 @@
 		};
 		04C84F5224691A6600B3A336 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9EEF5B990F79D4CEA0F1AD0 /* Pods-SpeechRecognizer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +496,7 @@
 		};
 		04C84F5424691A6600B3A336 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 941FA7F547C503CC4260F13B /* Pods-SpeechRecognizerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +518,7 @@
 		};
 		04C84F5524691A6600B3A336 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E71E7DD1B394819876FF5BE3 /* Pods-SpeechRecognizerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
